@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/sara/Desktop/Project'
+gcc -Wall -Wextra -Werror   -c -o ft_isalnum.o ft_isalnum.c
+gcc -Wall -Wextra -Werror   -c -o ft_isprint.o ft_isprint.c
+gcc -Wall -Wextra -Werror   -c -o ft_memcmp.o ft_memcmp.c
+ar rcs libft.a ft_isalnum.o ft_isprint.o ft_memcmp.o
+make: Leaving directory '/home/sara/Desktop/Project'
+ 

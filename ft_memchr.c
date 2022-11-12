@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:37 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 04:20:10 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/12 20:37:54 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ of the string pointed to, by the argument str.*/
 
 #include "libft.h"
 
-void *memchr(const void *s, int c, size_t n)
+void	*memchr(const void *s, int c, size_t n)
 /*{
 	size_t	i;
 	unsigned char *str;
@@ -44,18 +44,19 @@ void *memchr(const void *s, int c, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		if (*(unsigned char*)(s + i) == (unsigned char)c)
-			return ((void*)(s + i));
+		if (*(unsigned char *)(s + i) == (unsigned char)c)
+			return ((void *)(s + i));
 		i++;
 	}
 	return (NULL);
 }
 
-int	main()
+/*int	main()
 {
 	printf("Test de ft_memchr : \n");
-	if (memchr("source", 'r', 2) == ft_memchr("source", 'r', 2) && !strcmp(memchr("source", 'r', 5), ft_memchr("source", 'r', 5)))
+	if (memchr("source", 'r', 2) == ft_memchr("source", 'r', 2) && 
+	!strcmp(memchr("source", 'r', 5), ft_memchr("source", 'r', 5)))
 		printf("OK\n");
 	else
 		printf("Failed.\n");
-}
+}*/

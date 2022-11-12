@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samarque <samarque@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:39 by sara              #+#    #+#             */
-/*   Updated: 2022/11/10 15:46:44 by samarque         ###   ########.fr       */
+/*   Updated: 2022/11/12 20:39:14 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ int	memcmp(const void *s1, const void *s2, size_t n)
 
 	i = 0;
 	res = 0;
-
 	while (i < n)
 	{
 		if (((unsigned char *)s1)[i] != ((unsigned char *)s2)[i])
@@ -34,7 +33,7 @@ int	memcmp(const void *s1, const void *s2, size_t n)
 	return (res);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 
 int main () 
@@ -55,4 +54,4 @@ int main ()
    } else {
       printf("str1 is equal to str2");
    }
-}
+}*/

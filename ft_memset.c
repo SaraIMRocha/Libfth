@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:49 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 20:04:19 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/12 20:40:03 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ The memset() function returns its first argument.*/
 
 #include "libft.h"
 
-void		*ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len)
 
 {
 	size_t	i;
@@ -29,7 +29,6 @@ void		*ft_memset(void *b, int c, size_t len)
 
 	i = 0;
 	dst = (unsigned char *)b;
-	
 	while (i < len)
 	{
 		dst[i] == c;
@@ -38,7 +37,7 @@ void		*ft_memset(void *b, int c, size_t len)
 	return (dst);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 
 int main () 
@@ -52,4 +51,4 @@ int main ()
    puts(str);
    
    return(0);
-}
+}*/
