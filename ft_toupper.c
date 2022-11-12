@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samarque <samarque@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:39 by sara              #+#    #+#             */
-/*   Updated: 2022/11/10 13:24:55 by samarque         ###   ########.fr       */
+/*   Updated: 2022/11/12 23:28:43 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_toupper(int c)
 	return (c);
 }
 
-/*#include <stdio.h>
+#include <stdio.h>
 #include <ctype.h>
 
 int main () {
@@ -32,4 +32,4 @@ int main () {
    }
    
    return(0);
-}*/
+}

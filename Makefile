@@ -6,11 +6,11 @@
 #    By: sara <sara@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/26 19:24:06 by sara              #+#    #+#              #
-#    Updated: 2022/11/12 03:03:20 by sara             ###   ########.fr        #
+#    Updated: 2022/11/12 23:48:02 by sara             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c
+SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c ft_atoi.c 
 
 OBJS			= $(SRCS:.c=.o)
 
