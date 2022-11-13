@@ -1,8 +1,32 @@
 /*malloc
+The C library function void *malloc(size_t size) allocates the requested memory and returns a pointer to it.
 ptr = (cast-type*) malloc(byte-size)
 For Example:
 
     ptr = (int*) malloc(100 * sizeof(int));
     Since the size of int is 4 bytes, this statement will allocate 400 bytes of memory.
 	And, the pointer ptr holds the address of the first byte in the allocated memory.*/
+
+/*
+example of malloc use
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+   char *str;
+
+   Initial memory allocation
+   str = (char *) malloc(15);
+   strcpy(str, "ola migus");
+   printf("String = %s,  Address = %u\n", str, str);
+
+   Reallocating memory
+   str = (char *) realloc(str, 25);
+   strcat(str, "how ai u");
+   printf("String = %s,  Address = %u\n", str, str);
+
+   free(str);
+   
+   return(0);
+}*/
      

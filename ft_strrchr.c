@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:31 by sara              #+#    #+#             */
-/*   Updated: 2022/11/13 18:24:21 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/13 18:57:47 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ int main ()
    const char ch = 'i';
    char *ret;
 
-   ret = strrchr(str, ch);
+   ret = ft_strrchr(str, ch);
 
    printf("String after |%c| is - |%s|\n", ch, ret);
    

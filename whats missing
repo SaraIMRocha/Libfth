@@ -5,4 +5,6 @@ ft_split
 ft_itoa
 ft_strmapi
 ft_striteri
+ft_memmove
+to correct ft_strrchr
 bonus

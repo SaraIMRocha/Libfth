@@ -6,10 +6,13 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:37:10 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 19:46:53 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/13 18:58:20 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 char		*ft_substr(char const *s, unsigned int start, size_t len)
+{
+	
+}

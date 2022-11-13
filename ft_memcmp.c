@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:39 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 20:39:14 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/13 18:55:08 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ interpreted as unsigned char) of the memory areas s1 and s2.*/
 
 #include "libft.h"
 
-int	memcmp(const void *s1, const void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	size_t	i;
 	size_t	res;

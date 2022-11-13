@@ -6,10 +6,13 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:37:14 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 19:46:43 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/13 18:58:13 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 char		*ft_strtrim(char const *s1, char const *set)
+{
+	
+}
