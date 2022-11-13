@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:49 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 20:40:03 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/13 18:39:32 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ int main ()
 {
    char str[50];
 
-   strcpy(str,"This is string.h library function");
+   strcpy(str,"Just testing migus");
    puts(str);
 
    ft_memset(str,'t',7);

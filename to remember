@@ -1,0 +1,8 @@
+/*malloc
+ptr = (cast-type*) malloc(byte-size)
+For Example:
+
+    ptr = (int*) malloc(100 * sizeof(int));
+    Since the size of int is 4 bytes, this statement will allocate 400 bytes of memory.
+	And, the pointer ptr holds the address of the first byte in the allocated memory.*/
+     

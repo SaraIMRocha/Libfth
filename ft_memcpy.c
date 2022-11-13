@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samarque <samarque@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:44 by sara              #+#    #+#             */
-/*   Updated: 2022/11/10 14:39:40 by samarque         ###   ########.fr       */
+/*   Updated: 2022/11/13 17:07:21 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//this function copies n characters from memory area src to memory area dest
+//this function copies n characters from memory area src to memory area dst
 
 #include "libft.h"
 

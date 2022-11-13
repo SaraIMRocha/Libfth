@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'ft_isalnum.o', needed by 'libft.a'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Nov 12 20:32:07 2022
+# Make data base, printed on Sun Nov 13 17:03:39 2022
 
 # Variables
 
@@ -73,7 +75,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # makefile (from 'Makefile', line 13)
-SRCS = ft_isalnum.c ft_isprint.c ft_memcmp.c
+SRCS = ft_isalnum.c ft_isprint.c ft_memcmp.c ft_atoi.c 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -97,7 +99,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 59669
+VSCODE_PID = 72844
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -213,7 +215,7 @@ MANAGERPID = 1194
 # environment
 LC_MEASUREMENT = pt_PT.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 59624
+GIO_LAUNCHED_DESKTOP_FILE_PID = 72795
 # environment
 _ = /snap/code/112/usr/share/code/code
 # environment
@@ -278,14 +280,15 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # Load=132/1024=13%, Rehash=0, Collisions=9/167=5%
 
 # Pattern-specific Variable Values
+ 
 
 # No pattern-specific variable values.
 
 # Directories
 
-# . (device 2051, inode 3146751): 38 files, no impossibilities.
+# . (device 2051, inode 3146751): 37 files, no impossibilities.
 
-# 38 files, no impossibilities in 1 directories.
+# 37 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -295,14 +298,11 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Not a target:
 ft_isprint.o:
- 
-make: *** No rule to make target 'ft_isalnum.o', needed by 'libft.a'.  Stop.
-
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-libft.a: ft_isalnum.o ft_isprint.o ft_memcmp.o
+libft.a: ft_isalnum.o ft_isprint.o ft_memcmp.o ft_atoi.o
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
@@ -318,7 +318,7 @@ ft_isalnum.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-11-12 03:03:20.743552389
+#  Last modified 2022-11-12 23:48:02.883577098
 #  File has been updated.
 #  Successfully updated.
 
@@ -360,6 +360,12 @@ fclean: clean
 				$(RM) $(NAME)
 
 # Not a target:
+ft_atoi.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 ft_memcmp.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -371,19 +377,19 @@ ft_memcmp.o:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/35=0%
+# Load=13/1024=1%, Rehash=0, Collisions=0/37=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 51 / storage = 570 B / avg = 11 B
-# current buf: size = 8162 B / used = 570 B / count = 51 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 51 / storage = 562 B / avg = 11 B
+# current buf: size = 8162 B / used = 562 B / count = 51 / avg = 11 B
 
 # strcache performance: lookups = 70 / hit rate = 27%
 # hash-table stats:
 # Load=51/8192=1%, Rehash=0, Collisions=0/70=0%
-# Finished Make data base on Sat Nov 12 20:32:07 2022
+# Finished Make data base on Sun Nov 13 17:03:39 2022
 
  

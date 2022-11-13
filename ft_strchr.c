@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samarque <samarque@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:56 by sara              #+#    #+#             */
-/*   Updated: 2022/11/10 15:27:29 by samarque         ###   ########.fr       */
+/*   Updated: 2022/11/13 17:44:15 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,24 +44,27 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	while (*s)
+	int	i;
+
+	i = 0;
+	while (s[i])
 	{
-		if (*s == (char)c)
-			return ((char *)&*s);
-		s++;
+		if (s[i] == (char)c)
+			return ((char *)&s[i]);
+		i++;
 	}
-	if (*s == (char)c)
-		return ((char *)&*s);
+	if (s[i] == (char)c)
+		return ((char *)&s[i]);
 	else
 		return (0);
 }
 
-/*int	main(void)
+int	main(void)
 {
-	char *str + "parece quefuncimina";
+	char *str = "parece quefuncimina";
 	printf("\nTa igual ta gud:\n");
 	printf("%p : %p\n", strchr(str, ' '), ft_strchr(str, ' '));
 	printf("%p : %p\n", strchr(str, '\0'), ft_strchr(str, '\0'));
 	printf("%p : %p\n", strchr(str, 's'), ft_strchr(str, 's'));
 	printf("%p : %p\n", strchr(str, 'u'), ft_strchr(str, 'u'));
-}*/
+}

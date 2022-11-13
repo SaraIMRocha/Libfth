@@ -1,9 +1,4 @@
-ft_strdup
-ft_memset
-ft_memchr
 ft_strnstr
-ft_strrchr
-ft_calloc
 ft_substr
 ft_strtrim
 ft_split
