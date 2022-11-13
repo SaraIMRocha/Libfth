@@ -7,4 +7,5 @@ ft_strmapi
 ft_striteri
 ft_memmove
 to correct ft_strrchr
+correct memchr to libft.h
 bonus

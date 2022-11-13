@@ -6,13 +6,13 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:47 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 19:51:25 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/13 19:09:51 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void		ft_memmove(void *dst, const void *src, size_t len)
+void		*ft_memmove(void *dest, const void *src, size_t n)
 
 {
 	
