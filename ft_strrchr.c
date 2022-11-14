@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:31 by sara              #+#    #+#             */
-/*   Updated: 2022/11/13 18:57:47 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/14 17:12:04 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char *ft_strrchr(const char *s, int c)
 	return (0);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 
 int main () 
@@ -51,4 +51,4 @@ int main ()
    printf("String after |%c| is - |%s|\n", ch, ret);
    
    return(0);
-}
+}*/

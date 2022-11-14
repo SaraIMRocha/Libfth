@@ -9,3 +9,6 @@ ft_memmove
 to correct ft_strrchr
 correct memchr to libft.h
 bonus
+doesnt work with war machine
+strlcpy 
+strncmp

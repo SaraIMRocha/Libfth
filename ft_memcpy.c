@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:44 by sara              #+#    #+#             */
-/*   Updated: 2022/11/14 16:59:47 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/14 17:27:02 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	sorc = (unsigned const char *)src;
 	while (i < n)
 	{
-		dest[i] == sorc[i];
+		dest[i] = sorc[i];
 		i++;
 	}
 	return (dst);

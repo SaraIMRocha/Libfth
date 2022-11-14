@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:56 by sara              #+#    #+#             */
-/*   Updated: 2022/11/13 17:44:15 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/14 17:12:48 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ char	*ft_strchr(const char *s, int c)
 		return (0);
 }
 
-int	main(void)
+/*int	main(void)
 {
 	char *str = "parece quefuncimina";
 	printf("\nTa igual ta gud:\n");
@@ -67,4 +67,4 @@ int	main(void)
 	printf("%p : %p\n", strchr(str, '\0'), ft_strchr(str, '\0'));
 	printf("%p : %p\n", strchr(str, 's'), ft_strchr(str, 's'));
 	printf("%p : %p\n", strchr(str, 'u'), ft_strchr(str, 'u'));
-}
+}*/

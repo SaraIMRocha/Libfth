@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:01 by sara              #+#    #+#             */
-/*   Updated: 2022/11/13 18:56:06 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/14 17:28:33 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,10 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t destsize)
 	{
 		while (src[i] != '\0' && i > (destsize - 1))
 		{
-			dst[i] == src[i];
+			dst[i] = src[i];
 			i++;
 		}
-		dst[i] == '\0';
+		dst[i] = '\0';
 	}
 	return (srcsize);
 }

@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:05 by sara              #+#    #+#             */
-/*   Updated: 2022/11/13 18:20:47 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/14 17:12:38 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ char		*ft_strdup(const char *s1)
 }*/
 
 // C program to demonstrate strdup()
-#include<stdio.h>
+/*#include<stdio.h>
 #include<string.h>
 
 int main()
@@ -67,4 +67,4 @@ int main()
 
 	printf("%s\n", target);
 	return (0);
-}
+}*/
