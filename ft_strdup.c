@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:05 by sara              #+#    #+#             */
-/*   Updated: 2022/11/14 17:12:38 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 16:37:46 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,11 @@ The strdup() function returns thE pointer to the copy of s1.*/
 
 #include "libft.h"
 
-char		*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	size_t	i;
-	char *s2;
-	size_t len;
+	char	*s2;
+	size_t	len;
 
 	len = ft_strlen(s1) + 1;
 	s2 = malloc(sizeof(char) * len + 1);

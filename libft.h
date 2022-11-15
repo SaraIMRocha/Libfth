@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:48:46 by sara              #+#    #+#             */
-/*   Updated: 2022/11/14 16:58:15 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 16:44:09 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 
 int			ft_isalpha(int c);
 int			ft_isalnum(int c);
-int			ft_isacii(int c);
+int			ft_isascii(int c);
 int			ft_isdigit(int c);
 int			ft_isprint(int c);
 int			ft_atoi(const char *str);

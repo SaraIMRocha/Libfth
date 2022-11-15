@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:40:32 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 23:04:17 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 16:34:05 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ PARAMETERS
 
 #include "libft.h"
 
-void		ft_putchar_fd(char c, int fd)
+void	ft_putchar_fd(char c, int fd)
 
 {
 	write(fd, &c, 1);

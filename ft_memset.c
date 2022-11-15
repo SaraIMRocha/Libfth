@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:49 by sara              #+#    #+#             */
-/*   Updated: 2022/11/14 17:03:04 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 16:27:44 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,11 @@ The memset() function returns its first argument.*/
 void	*ft_memset(void *b, int c, size_t len)
 
 {
-	size_t	i;
+	size_t			i;
 	unsigned char	*dst;
 
 	i = 0;
-	dst = (unsigned char*) b;
+	dst = (unsigned char *) b;
 	while (i < len)
 	{
 		dst[i] = (unsigned char)c;

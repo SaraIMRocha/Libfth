@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:40:53 by sara              #+#    #+#             */
-/*   Updated: 2022/11/12 23:08:37 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 16:34:27 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,12 @@ PARAMETERS
 
 #include "libft.h"
 
-void		ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd)
 
 {
 	int	i;
 
 	i = 0;
-
 	if (s[i] != '\0')
 	{
 		while (s[i])

@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:31 by sara              #+#    #+#             */
-/*   Updated: 2022/11/14 17:12:04 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 16:30:01 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,11 +17,11 @@ the function returns a null pointer*/
 
 #include "libft.h"
 
-char *ft_strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 
 {
 	int	i;
-	int len;
+	int	len;
 
 	i = 0;
 	len = ft_strlen(s);
@@ -30,7 +30,7 @@ char *ft_strrchr(const char *s, int c)
 	while (i >= 0)
 	{
 		if (s[i] == (char)c)
-			return ((char*)s + (len));
+			return ((char *)s + (len));
 		i--;
 	}
 	return (0);
