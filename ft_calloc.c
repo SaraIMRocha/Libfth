@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:43:45 by sara              #+#    #+#             */
-/*   Updated: 2022/11/15 16:35:17 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 18:23:17 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,14 +27,14 @@ void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
 
-	ptr = malloc(count * size);
+	ptr = (size * count);
 	if (!ptr)
-		return ('\0');
-	ft_bzero(ptr, count * size);
+		return (ptr);
+	ft_bzero(ptr, size * count);
 	return (ptr);
 }
 
-/*int main () 
+int main () 
 {
    int i, n;
    int *a;
@@ -55,4 +55,4 @@ void	*ft_calloc(size_t count, size_t size)
    free( a );
    
    return(0);
-}*/
+}

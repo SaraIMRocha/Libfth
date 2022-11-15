@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:39 by sara              #+#    #+#             */
-/*   Updated: 2022/11/13 18:55:08 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/15 18:50:55 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,19 +18,21 @@ interpreted as unsigned char) of the memory areas s1 and s2.*/
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	size_t	i;
-	size_t	res;
+	unsigned char str1;
+	unsigned char str2;
 
 	i = 0;
-	res = 0;
+	str1 = (unsigned char *)s1;
+	str2 = (unsigned char *)s2;
 	while (i < n)
 	{
-		if (((unsigned char *)s1)[i] != ((unsigned char *)s2)[i])
-		{
-			res = (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
-			i++;
-		}
+		if (str1[i] != str2[i])
+			return((int)str1[i] - str2[i]);
+		if(n == 0)
+			return ((int)n);
+		i++;
 	}
-	return (res);
+	return (0);
 }
 
 /*#include <stdio.h>

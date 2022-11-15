@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: samarque <samarque@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:31 by sara              #+#    #+#             */
-/*   Updated: 2022/11/10 13:27:43 by samarque         ###   ########.fr       */
+/*   Updated: 2022/11/15 18:55:16 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,7 @@
 
 int	ft_isprint(int c)
 {
-	if (c >= 0 && c <= 31)
-		return (0);
-	else
-		return (1);
+	return (c >= 32 && c <= 126);
 }
 
 /*#include<stdio.h>
