@@ -1,23 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/sara/Desktop/Project'
-gcc -Wall -Wextra -Werror   -c -o ft_atoi.o ft_atoi.c
-gcc -Wall -Wextra -Werror   -c -o ft_bzero.o ft_bzero.c
-gcc -Wall -Wextra -Werror   -c -o ft_isalnum.o ft_isalnum.c
-gcc -Wall -Wextra -Werror   -c -o ft_isalpha.o ft_isalpha.c
-gcc -Wall -Wextra -Werror   -c -o ft_isascii.o ft_isascii.c
-gcc -Wall -Wextra -Werror   -c -o ft_isdigit.o ft_isdigit.c
-gcc -Wall -Wextra -Werror   -c -o ft_isprint.o ft_isprint.c
-gcc -Wall -Wextra -Werror   -c -o ft_memchr.o ft_memchr.c
-gcc -Wall -Wextra -Werror   -c -o ft_strchr.o ft_strchr.c
-gcc -Wall -Wextra -Werror   -c -o ft_strdup.o ft_strdup.c
-gcc -Wall -Wextra -Werror   -c -o ft_strlcat.o ft_strlcat.c
-gcc -Wall -Wextra -Werror   -c -o ft_strlen.o ft_strlen.c
-gcc -Wall -Wextra -Werror   -c -o ft_memcpy.o ft_memcpy.c
-gcc -Wall -Wextra -Werror   -c -o ft_putchar_fd.o ft_putchar_fd.c
-gcc -Wall -Wextra -Werror   -c -o ft_putstr_fd.o ft_putstr_fd.c
-gcc -Wall -Wextra -Werror   -c -o ft_strrchr.o ft_strrchr.c
-gcc -Wall -Wextra -Werror   -c -o ft_tolower.o ft_tolower.c
-gcc -Wall -Wextra -Werror   -c -o ft_toupper.o ft_toupper.c
-ar rcs libft.a ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_memchr.o ft_strchr.o ft_strdup.o ft_strlcat.o ft_strlen.o ft_memcpy.o ft_putchar_fd.o ft_putstr_fd.o ft_strrchr.o ft_tolower.o ft_toupper.o
 make: Leaving directory '/home/sara/Desktop/Project'
  
+make: *** No targets specified and no makefile found.  Stop.
+

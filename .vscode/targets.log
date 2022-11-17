@@ -1,5 +1,5 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'ft_atoi.o', needed by 'libft.a'.  Stop.
+make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
@@ -8,7 +8,7 @@ make: *** No rule to make target 'ft_atoi.o', needed by 'libft.a'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Nov 16 16:27:56 2022
+# Make data base, printed on Thu Nov 17 00:41:03 2022
 
 # Variables
 
@@ -16,8 +16,6 @@ make: *** No rule to make target 'ft_atoi.o', needed by 'libft.a'.  Stop.
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -76,8 +74,6 @@ CURDIR := /home/sara/Desktop/Project
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
-# makefile (from 'Makefile', line 13)
-SRCS = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memchr.c ft_strchr.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_memcpy.c ft_putchar_fd.c ft_putstr_fd.c ft_strrchr.c ft_tolower.c ft_toupper.c 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -94,14 +90,14 @@ XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 +D = $(patsubst %/,%,$(dir $+))
 # environment
 XDG_SESSION_DESKTOP = ubuntu
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
+# makefile
+MAKEFILE_LIST := 
 # environment
 SNAP_REEXEC = 
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3221
+VSCODE_PID = 84177
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -122,8 +118,6 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 18)
-OBJS = $(SRCS:.c=.o)
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # makefile
@@ -145,7 +139,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = A9fAkfyhHXTnVtUpDhAdHAMxufDw_Z6Z8pJesxVF0ZRfeIgx-tAt
 # environment
-PATH = /home/sara/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /home/sara/.local/bin:/home/sara/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -174,8 +168,6 @@ LC_TELEPHONE = pt_PT.UTF-8
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
-# makefile (from 'Makefile', line 24)
-NAME = libft.a
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
@@ -195,11 +187,9 @@ GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.deskto
 # environment
 SNAP_ARCH = amd64
 # makefile
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := 
 # environment
 SYSTEMD_EXEC_PID = 1394
-# makefile (from 'Makefile', line 21)
-RM = /bin/rm -f
 # environment
 DISPLAY = :0
 # environment
@@ -217,15 +207,13 @@ MANAGERPID = 1164
 # environment
 LC_MEASUREMENT = pt_PT.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3343
+GIO_LAUNCHED_DESKTOP_FILE_PID = 84138
 # environment
 _ = /snap/code/112/usr/share/code/code
 # environment
 LC_PAPER = pt_PT.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
-# makefile (from 'Makefile', line 22)
-CFLAGS = -Wall -Wextra -Werror
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/sara/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
@@ -266,8 +254,6 @@ ELECTRON_NO_ATTACH_CONSOLE = 1
 SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# makefile (from 'Makefile', line 20)
-CC = gcc
 # environment
 SNAP_USER_DATA = /home/sara/snap/code/112
 # environment
@@ -279,7 +265,7 @@ LC_IDENTIFICATION = pt_PT.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=133/1024=13%, Rehash=0, Collisions=9/168=5%
+# Load=126/1024=12%, Rehash=0, Collisions=4/153=3%
 
 # Pattern-specific Variable Values
 
@@ -287,122 +273,23 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2051, inode 3146751): 39 files, no impossibilities.
+# . (device 2051, inode 3146751): 4 files, no impossibilities.
 
-# 39 files, no impossibilities in 1 directories.
+# 4 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
-# Files
-
-# Not a target:
-ft_isalpha.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
  
-
-# Not a target:
-ft_strchr.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_putstr_fd.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_isprint.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-libft.a: ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_memchr.o ft_strchr.o ft_strdup.o ft_strlcat.o ft_strlen.o ft_memcpy.o ft_putchar_fd.o ft_putstr_fd.o ft_strrchr.o ft_tolower.o ft_toupper.o
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 29):
-						ar rcs $(NAME) $(OBJS)
-
-# Not a target:
-ft_toupper.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_isalnum.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+# Files
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-11-15 18:52:59.160314098
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-ft_strlen.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_strdup.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-clean:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 32):
-						$(RM) $(OBJS)
-
-# Not a target:
-ft_isascii.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_memcpy.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-re: fclean libft.a
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-# Not a target:
-ft_bzero.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_isdigit.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_strlcat.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Failed to be updated.
 
 # Not a target:
 .DEFAULT:
@@ -410,71 +297,41 @@ ft_strlcat.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-all: libft.a
-#  Phony target (prerequisite of .PHONY).
-#  Command line target.
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-
-fclean: clean
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 35):
-						$(RM) $(NAME)
-
 # Not a target:
-ft_atoi.o:
+all:
+#  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has not been updated.
 
 # Not a target:
-ft_strrchr.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
 
 # Not a target:
-ft_putchar_fd.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-.PHONY: all clean fclean re
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_tolower.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_memchr.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
 
 # files hash-table stats:
- 
-# Load=27/1024=3%, Rehash=0, Collisions=0/65=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 67 / storage = 761 B / avg = 11 B
-# current buf: size = 8162 B / used = 761 B / count = 67 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 12 / storage = 103 B / avg = 8 B
+# current buf: size = 8162 B / used = 103 B / count = 12 / avg = 8 B
 
-# strcache performance: lookups = 86 / hit rate = 22%
+# strcache performance: lookups = 15 / hit rate = 20%
 # hash-table stats:
-# Load=67/8192=1%, Rehash=0, Collisions=0/86=0%
-# Finished Make data base on Wed Nov 16 16:27:56 2022
+# Load=12/8192=0%, Rehash=0, Collisions=0/15=0%
+# Finished Make data base on Thu Nov 17 00:41:03 2022
 
  
