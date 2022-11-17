@@ -8,7 +8,7 @@ make: *** No rule to make target 'ft_atoi.o', needed by 'libft.a'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Nov 13 19:07:54 2022
+# Make data base, printed on Wed Nov 16 16:27:56 2022
 
 # Variables
 
@@ -16,6 +16,8 @@ make: *** No rule to make target 'ft_atoi.o', needed by 'libft.a'.  Stop.
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -61,7 +63,7 @@ VSCODE_CODE_CACHE_PATH = /home/sara/.config/Code/CachedData/8fa188b2b301d36553cb
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.L0Y9U1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.QICUV1
 # default
 .LOADED := 
 # default
@@ -75,7 +77,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # makefile (from 'Makefile', line 13)
-SRCS = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memset.c ft_putchar_fd.c ft_putstr_fd.c ft_strchr.c ft_strdup.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncmp.c ft_strrchr.c ft_tolower.c ft_toupper.c 
+SRCS = ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memchr.c ft_strchr.c ft_strdup.c ft_strlcat.c ft_strlen.c ft_memcpy.c ft_putchar_fd.c ft_putstr_fd.c ft_strrchr.c ft_tolower.c ft_toupper.c 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -99,7 +101,7 @@ SNAP_REEXEC =
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 72844
+VSCODE_PID = 3221
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -107,7 +109,7 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/sara-VivoBook-ASUSLaptop-X512UB:@/tmp/.ICE-unix/1401,unix/sara-VivoBook-ASUSLaptop-X512UB:/tmp/.ICE-unix/1401
+SESSION_MANAGER = local/sara-VivoBook-ASUSLaptop-X512UB:@/tmp/.ICE-unix/1371,unix/sara-VivoBook-ASUSLaptop-X512UB:/tmp/.ICE-unix/1371
 # automatic
 *F = $(notdir $*)
 # environment
@@ -120,7 +122,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 19)
+# makefile (from 'Makefile', line 18)
 OBJS = $(SRCS:.c=.o)
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
@@ -143,7 +145,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = A9fAkfyhHXTnVtUpDhAdHAMxufDw_Z6Z8pJesxVF0ZRfeIgx-tAt
 # environment
-PATH = /home/sara/.local/bin:/home/sara/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /home/sara/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -157,7 +159,7 @@ LC_TIME = pt_PT.UTF-8
 # environment
 SNAP = /snap/code/112
 # environment
-INVOCATION_ID = 2e9004689b25463483e59b96274bcce2
+INVOCATION_ID = 5236ee544eed476bb24841adf2836dad
 # environment
 SNAP_REVISION = 112
 # environment
@@ -172,7 +174,7 @@ LC_TELEPHONE = pt_PT.UTF-8
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
-# makefile (from 'Makefile', line 25)
+# makefile (from 'Makefile', line 24)
 NAME = libft.a
 # environment
 XDG_CURRENT_DESKTOP = Unity
@@ -195,9 +197,9 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 1425
-# makefile (from 'Makefile', line 22)
-RM = rm -f
+SYSTEMD_EXEC_PID = 1394
+# makefile (from 'Makefile', line 21)
+RM = /bin/rm -f
 # environment
 DISPLAY = :0
 # environment
@@ -211,31 +213,30 @@ SNAP_DATA = /var/snap/code/112
 # environment
 SNAP_CONTEXT = A9fAkfyhHXTnVtUpDhAdHAMxufDw_Z6Z8pJesxVF0ZRfeIgx-tAt
 # environment
-MANAGERPID = 1194
+MANAGERPID = 1164
 # environment
 LC_MEASUREMENT = pt_PT.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 72795
+GIO_LAUNCHED_DESKTOP_FILE_PID = 3343
 # environment
 _ = /snap/code/112/usr/share/code/code
 # environment
 LC_PAPER = pt_PT.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
-# makefile (from 'Makefile', line 23)
+# makefile (from 'Makefile', line 22)
 CFLAGS = -Wall -Wextra -Werror
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/sara/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
 LC_CTYPE = pt_PT.UTF-8
 # environment
-JOURNAL_STREAM = 8:28545
+JOURNAL_STREAM = 8:32052
 # environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
- 
 HOME = /home/sara
 # environment
 QT_IM_MODULE = ibus
@@ -265,7 +266,7 @@ ELECTRON_NO_ATTACH_CONSOLE = 1
 SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
-# makefile (from 'Makefile', line 21)
+# makefile (from 'Makefile', line 20)
 CC = gcc
 # environment
 SNAP_USER_DATA = /home/sara/snap/code/112
@@ -278,7 +279,7 @@ LC_IDENTIFICATION = pt_PT.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=132/1024=13%, Rehash=0, Collisions=9/167=5%
+# Load=133/1024=13%, Rehash=0, Collisions=9/168=5%
 
 # Pattern-specific Variable Values
 
@@ -301,6 +302,7 @@ ft_isalpha.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
 # Not a target:
 ft_strchr.o:
@@ -320,12 +322,12 @@ ft_isprint.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-libft.a: ft_atoi.o ft_bzero.o ft_calloc.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_memchr.o ft_memcmp.o ft_memcpy.o ft_memset.o ft_putchar_fd.o ft_putstr_fd.o ft_strchr.o ft_strdup.o ft_strlcat.o ft_strlcpy.o ft_strlen.o ft_strncmp.o ft_strrchr.o ft_tolower.o ft_toupper.o
+libft.a: ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_isdigit.o ft_isprint.o ft_memchr.o ft_strchr.o ft_strdup.o ft_strlcat.o ft_strlen.o ft_memcpy.o ft_putchar_fd.o ft_putstr_fd.o ft_strrchr.o ft_tolower.o ft_toupper.o
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 30):
-				ar rcs $(NAME) $(OBJS)
+#  recipe to execute (from 'Makefile', line 29):
+						ar rcs $(NAME) $(OBJS)
 
 # Not a target:
 ft_toupper.o:
@@ -342,7 +344,7 @@ ft_isalnum.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-11-13 19:06:45.361686266
+#  Last modified 2022-11-15 18:52:59.160314098
 #  File has been updated.
 #  Successfully updated.
 
@@ -363,14 +365,8 @@ clean:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 33):
-				$(RM) $(OBJS)
-
-# Not a target:
-ft_memset.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+						$(RM) $(OBJS)
 
 # Not a target:
 ft_isascii.o:
@@ -389,8 +385,6 @@ re: fclean libft.a
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 40):
-				ar rcs $(NAME) $(OBJS)
 
 # Not a target:
 ft_bzero.o:
@@ -426,11 +420,10 @@ all: libft.a
 fclean: clean
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
- 
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 36):
-				$(RM) $(NAME)
+#  recipe to execute (from 'Makefile', line 35):
+						$(RM) $(NAME)
 
 # Not a target:
 ft_atoi.o:
@@ -439,31 +432,7 @@ ft_atoi.o:
 #  File has not been updated.
 
 # Not a target:
-ft_strlcpy.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_calloc.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_memcmp.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
 ft_strrchr.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-ft_strncmp.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -492,19 +461,20 @@ ft_memchr.o:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=32/1024=3%, Rehash=0, Collisions=0/75=0%
+ 
+# Load=27/1024=3%, Rehash=0, Collisions=0/65=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 72 / storage = 823 B / avg = 11 B
-# current buf: size = 8162 B / used = 823 B / count = 72 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 67 / storage = 761 B / avg = 11 B
+# current buf: size = 8162 B / used = 761 B / count = 67 / avg = 11 B
 
-# strcache performance: lookups = 91 / hit rate = 20%
+# strcache performance: lookups = 86 / hit rate = 22%
 # hash-table stats:
-# Load=72/8192=1%, Rehash=0, Collisions=0/91=0%
-# Finished Make data base on Sun Nov 13 19:07:54 2022
+# Load=67/8192=1%, Rehash=0, Collisions=0/86=0%
+# Finished Make data base on Wed Nov 16 16:27:56 2022
 
  

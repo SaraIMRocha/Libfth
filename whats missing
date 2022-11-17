@@ -1,11 +1,11 @@
-ft_strnstr
+pt 1
+done
+****pt2****
 ft_substr
 ft_strtrim
 ft_split
 ft_itoa
 ft_strmapi
 ft_striteri
-ft_memmove
 bonus
-doesnt work with war machine
-memcmp
+****doesnt work with war machine****

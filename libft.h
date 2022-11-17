@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:48:46 by sara              #+#    #+#             */
-/*   Updated: 2022/11/15 18:44:47 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/16 15:15:11 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,10 +33,10 @@ void		ft_bzero(void *s, size_t n);
 void		*ft_memcpy(void *dst, const void *src, size_t n);
 void		*ft_memmove(void *dest, const void *src, size_t n);
 void		*ft_memchr(const void *s, int c, size_t n);
-void		*ft_calloc(size_t count, size_t size);
+void		*ft_calloc(size_t nmemb, size_t size);
 size_t		ft_strlen(const char *s);
 size_t		ft_strlcpy(char *dst, const char *src, size_t destsize);
-size_t		ft_strlcat(char *dest, const char *src, size_t destsize);
+size_t		ft_strlcat(char *dest, char *source, size_t size);
 char		*ft_strchr(const char *s, int c);
 char		*ft_strrchr(const char *s, int c);
 char		*ft_strnstr(const char *str, const char *find, size_t len);
