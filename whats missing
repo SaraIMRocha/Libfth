@@ -5,7 +5,5 @@ ft_substr
 ft_strtrim
 ft_split
 ft_itoa
-ft_strmapi
-ft_striteri
 bonus
 ****doesnt work with war machine****
