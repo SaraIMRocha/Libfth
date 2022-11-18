@@ -1,9 +1,17 @@
 pt 1
 done
 ****pt2****
-ft_substr
 ft_strtrim
 ft_split
 ft_itoa
 bonus
+ft_lstnew
+ft_lstdelone
+ft_lstclear
+ft_lstadd_front
+ft_lstadd_back
+ft_lstsize
+ft_lstiter
+ft_lstmap
+ft_lstlast
 ****doesnt work with war machine****

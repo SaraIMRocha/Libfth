@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:23:05 by sara              #+#    #+#             */
-/*   Updated: 2022/11/15 16:37:46 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/18 00:19:47 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ s1, does the copy, and returns a pointer to it.
 PARAMETERS
 #1. The string to duplicate.
 RETURN VALUES
-The strdup() function returns thE pointer to the copy of s1.*/
+The strdup() function returns the pointer to the copy of s1.*/
 
 //https://www.youtube.com/watch?v=d1gGryidv18
 

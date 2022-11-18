@@ -1,4 +1,8 @@
-/*malloc
+/*
+For most operating systems, a file descriptor (FD) is a small non-negative integer that helps in 
+identifying an open file within a process while using input/output resources
+
+malloc
 The C library function void *malloc(size_t size) allocates the requested memory and returns a pointer to it.
 ptr = (cast-type*) malloc(byte-size)
 For Example:
