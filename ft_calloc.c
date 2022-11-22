@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:43:45 by sara              #+#    #+#             */
-/*   Updated: 2022/11/16 14:59:31 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/22 17:40:57 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,15 +22,15 @@ If there is an error, they return a NULL pointer.*/
 
 #include "libft.h"
 
-void	*ft_calloc(size_t nmemb, size_t size)
+void	*ft_calloc(size_t count, size_t size)
 
 {
 	void	*ptr;
 
-	ptr = malloc(size * nmemb);
+	ptr = malloc(count * size);
 	if (!ptr)
 		return (0);
-	ft_bzero(ptr, nmemb);
+	ft_memset(ptr, '\0', (count * size));
 	return (ptr);
 }
 

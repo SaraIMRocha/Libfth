@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:49 by sara              #+#    #+#             */
-/*   Updated: 2022/11/15 16:27:44 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/22 17:28:46 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ void	*ft_memset(void *b, int c, size_t len)
 
 	i = 0;
 	dst = (unsigned char *) b;
+	if (!dst || !b)
+		return (NULL);
 	while (i < len)
 	{
 		dst[i] = (unsigned char)c;

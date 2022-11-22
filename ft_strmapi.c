@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:38:30 by sara              #+#    #+#             */
-/*   Updated: 2022/11/17 02:06:21 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/22 17:52:12 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,13 +24,15 @@ Returns NULL if the allocation fails.*/
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	char	*str;
-	size_t	i;
+	char			*str;
+	unsigned int	i;
 
+	if (!s || !f)
+		return (NULL);
+	i = 0;
 	str = ft_strdup(s);
 	if (!str)
-		return (0);
-	i = 0;
+		return (NULL);
 	while (str[i])
 	{
 		str[i] = f(i, str[i]);
