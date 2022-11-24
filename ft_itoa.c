@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:42:18 by sara              #+#    #+#             */
-/*   Updated: 2022/11/22 18:45:54 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/24 00:25:43 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,27 +21,65 @@ The string representing the integer. NULL if the allocation fails.*/
 #include "libft.h"
 #include <limits.h>
 
-char	*ft_itoa(int n)
+static int	ft_size(int n)
 
 {
-	char			buf[sizeof(int ) * CHAR_BIT / 3 + 3];
-	char			*s;
-	unsigned int	v;
+	int	size;
 
-	v = n;
-	if (n < 0)
-	{
-		v = -v;
-	}
-	s = buf + sizeof(buf);
-	*--s = '\0';
-	while (v >= 10)
-	{
-		*--s = '0' + v % 10;
-		v /= 10;
-	}
-	*--s = '0' + v;
-	if (n < 0)
-		*--s = '-';
-	return (ft_strdup(s));
+	size = 0;
+	if (n > 0)
+		size = 0;
+	else
+		size = 1;
+	return (size);
 }
+
+static int	ft_signal(int n)
+{
+	int	signal;
+
+	signal = 0;
+	if (n < 0)
+		signal = -1;
+	else
+		signal = 1;
+	return (signal);
+}
+
+char	*ft_itoa(int n)
+{
+	char				*str;
+	unsigned long int	nbr;
+	size_t				size;
+
+	size = ft_size(n);
+	nbr = (unsigned long int)n * ft_signal(n);
+	while (n)
+	{
+		n = n / 10;
+		size++;
+	}
+	str = (char *)malloc(size + 1);
+	if (!str)
+		return (0);
+	*(str + size--) = '\0';
+	while (nbr > 0)
+	{
+		*(str + size--) = nbr % 10 + 48;
+		nbr = nbr / 10;
+	}
+	if (size == 0 && str[1] == '\0')
+		*(str + size) = 48;
+	else if (size == 0 && str[1] != '\0')
+		*(str + size) = '-';
+	return (str);
+}
+
+/*int main()
+{
+	int	n;
+	
+	n = INT_MIN;
+	
+	printf("Testing -> %s\n", ft_itoa(n));
+}*/

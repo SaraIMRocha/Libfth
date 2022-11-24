@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:47 by sara              #+#    #+#             */
-/*   Updated: 2022/11/22 17:30:26 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/24 00:20:10 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	s = (unsigned char *)src;
 	d = (unsigned char *)dst;
 	i = 0;
-	if (!dst || !s || !d)
+	if (!dst || !s)
 		return (NULL);
 	if (d > s)
 		while (len-- > 0)

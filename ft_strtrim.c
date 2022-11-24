@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/12 19:37:14 by sara              #+#    #+#             */
-/*   Updated: 2022/11/22 17:11:47 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/23 23:07:06 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,9 @@ char	*ft_strtrim(const char *s, const char *set)
 		i--;
 	return (ft_substr(s, 0, i + 1));
 }
+
+/*int main(void)
+{
+	printf("\nTeste de ft_strtrim :\n");
+	printf("'Im am heLPfull so I HAve My MAINS' : %s\n", ft_strtrim("so", "IS"));
+}*/

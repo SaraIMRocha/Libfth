@@ -6,7 +6,7 @@
 #    By: sara <sara@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/26 19:24:06 by sara              #+#    #+#              #
-#    Updated: 2022/11/22 17:44:00 by sara             ###   ########.fr        #
+#    Updated: 2022/11/24 04:43:23 by sara             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,9 +17,14 @@ SRCS			= 	ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c \
 						ft_toupper.c ft_calloc.c ft_memcmp.c ft_memmove.c ft_memset.c \
 						ft_putendl_fd.c ft_putnbr_fd.c ft_strlcpy.c ft_strjoin.c \
 						ft_striteri.c ft_strmapi.c ft_strncmp.c ft_strnstr.c ft_strtrim.c \
-						ft_substr.c \
+						ft_substr.c ft_itoa.c \
+
+BONUS			= ft_lstlast.c ft_lstnew.c ft_lstsize.c #ft_lstadd_front.c \
+						ft_lstdelone.c ft_lstclear.c ft_lstiter.c  ft_lstmap.c
 
 OBJS			= $(SRCS:.c=.o)
+
+BOBJS			= $(BONUS:.c=.o)
 
 CC					= gcc
 RM					= /bin/rm -f
@@ -27,17 +32,20 @@ CFLAGS			= -Wall -Wextra -Werror
 
 NAME			= libft.a
 
-all:			$(NAME)
+all:			$(NAME) $(BOBJS)
 
 $(NAME):		$(OBJS)
 						ar rcs $(NAME) $(OBJS)
 
 clean:
-						$(RM) $(OBJS)
+						$(RM) $(OBJS) $(BOBJS)
 
 fclean:			clean
 						$(RM) $(NAME)
 
 re:						fclean $(NAME)
 
-.PHONY:			all clean fclean re
+bonus:			$(OBJS) $(BOBJS)
+						ar rcs $(NAME) $(OBJS) $(BOBJS)
+
+.PHONY:			all clean fclean re bonus
