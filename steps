@@ -15,22 +15,44 @@ Syntax
 #ifndef -> identifier
 
 
-The typedef keyword allow users to provide alternative names for the primitive (e.g.,​ int) and user-defined​ (e.g struct) data types.
-Remember, this keyword adds a new name for some existing data type but does not create a new type.
+The typedef keyword allow users to provide alternative names for the primitive 
+(e.g.,​ int) and user-defined​ (e.g struct) data types.
+Remember, this keyword adds a new name for some existing
+ data type but does not create a new type.
 
+-----------------------------------------
+
+Non-negative
+Unsigned means non-negative
+The term "unsigned" in computer programming indicates a variable 
+that can hold only positive numbers. The term "signed" in 
+computer code indicates that a variable can hold negative and positive values.
+
+-----------------------------------------
+
+The const keyword specifies that a variable's value is constant and tells the compiler 
+to prevent the programmer from modifying it.
+
+-----------------------------------------
 -----------------------------------------
 
 Makefile .PHONY
 
-.PHONY directive is actually itself a target for the make commandand and it denotes labels that do not represent files of the project
-In the general case, assuming that there are no files called 'build' in the project, when not using the .PHONY target, like so
+.PHONY directive is actually itself a target for the make commandand and it denotes
+ labels that do not represent files of the project
+In the general case, assuming that there are no files called 'build'
+ in the project, when not using the .PHONY target, like so
 
 build:
         go build
 
-everytime the make build command is invoked it will execute the specified command (in this case go build). However, if there was a file named build, the make build would be bound by the presence of this file and executed only if that file was updated.
+everytime the make build command is invoked it will execute the specified 
+command (in this case go build). However, if there was a file named build, 
+the make build would be bound by the presence of this file and executed 
+only if that file was updated.
 
-The .PHONY target overrides this last behaviour and let's the make build execute no matter of the presence of a file named build.
+The .PHONY target overrides this last behaviour and let's the make build 
+execute no matter of the presence of a file named build.
 
 -----------------------------------------
 
@@ -41,7 +63,11 @@ Structures are used to represent a record.
 
 Structs, também conhecidas como Registros, definem tipos de dados que agrupam variáveis sob um mesmo tipo de dado.
 
-A ideia de usar uma struct é permitir que, ao armazenar os dados de uma mesma entidade, isto possa ser feito com uma única variável. Por exemplo, se for preciso armazenar a altura, o peso e a idade de uma pessoa, pode-se criar uma struct chamada Pessoa e agrupar os dados em um único tipo de dado, conforme o exemplo a seguir.
+A ideia de usar uma struct é permitir que, ao armazenar os dados de uma mesma entidade, 
+isto possa ser feito com uma única variável. 
+Por exemplo, se for preciso armazenar a altura, o peso e a idade de uma pessoa, 
+pode-se criar uma struct chamada Pessoa e agrupar 
+os dados em um único tipo de dado, conforme o exemplo a seguir.
 
 Aos dados agruados em uma struct dá-se o nome de campos(fields).
 typedef struct // Cria uma STRUCT para armazenar os dados de uma pessoa
@@ -100,18 +126,27 @@ A string or sequence of character
 int unsigned decimal
 
 Scanf
-In C programming language, scanf is a function that stands for Scan Formatted String. It reads data from stdin (standard input stream i.e. usually keyboard) and then writes the result into the given arguments. It accepts character, string, and numeric data from the user using standard input.
+In C programming language, scanf is a function that stands for Scan Formatted String. 
+It reads data from stdin (standard input stream i.e. usually keyboard) and then writes
+the result into the given arguments. It accepts character, string, and numeric 
+data from the user using standard input.
 
 ------------------------------------------
 
 What does iterating mean in coding?
-In programming specifically, iterative refers to a sequence of instructions or code being repeated until a specific end result is achieved. Iterative development is sometimes called circular or evolutionary development.
+In programming specifically, iterative refers to a sequence of 
+instructions or code being repeated until a specific end result 
+is achieved. Iterative development is sometimes called circular
+ or evolutionary development.
 
 ------------------------------------------
 
 Function inside prototype
 
-In C language function prototype is used to provide function declaration. It defines the function's name, returns types, and parameters. The return types are the data types that the function returns after execution. If a function returns an integer, the return type is int.
+In C language function prototype is used to provide function declaration. 
+It defines the function's name, returns types, and parameters. The return
+ types are the data types that the function returns after execution. 
+ If a function returns an integer, the return type is int.
 
 FD Functions
 
@@ -120,14 +155,21 @@ identifying an open file within a process while using input/output resources
 
 ------------------------------------------
 
-The “static” keyword before a function name makes it static. For example, below function fun() is static. Unlike global functions in C, access to static functions is restricted to the file where they are declared. Therefore, when we want to restrict access to functions, we make them static
+The “static” keyword before a function name makes it static. 
+For example, below function fun() is static. Unlike global functions in C, 
+access to static functions is restricted to the file where they are declared. 
+Therefore, when we want to restrict access to functions, we make them static
+
 
 ------------------------------------------
 
 Linked lists Struct
 
 https://www.geeksforgeeks.org/what-is-linked-list/
-Like arrays, Linked List is a linear data structure. Unlike arrays, linked list elements are not stored at a contiguous location; the elements are linked using pointers. They include a series of connected nodes. Here, each node stores the data and the address of the next node.
+Like arrays, Linked List is a linear data structure. Unlike arrays, 
+linked list elements are not stored at a contiguous location; 
+the elements are linked using pointers. They include a series 
+of connected nodes. Here, each node stores the data and the address of the next node.
 
 // C program to implement a
 // linked list

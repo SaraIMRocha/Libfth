@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/24 01:11:29 by sara              #+#    #+#             */
-/*   Updated: 2022/11/24 03:59:44 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/25 00:43:42 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,9 +31,7 @@ t_list	*ft_lstnew(void *content)
 	if (!new)
 		return (0);
 	new -> content = content;
-	new -> next = 0; 
-	//este next estamos a definir no typedef struct pois
-	//representa o proximo node
+	new -> next = 0;
 	return (new);
 }
 

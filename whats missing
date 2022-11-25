@@ -1,8 +1,8 @@
-pt 1
+****pt1****
 done
 ****pt2****
-ft_split
-bonus
+done
+****bonus****
 ft_lstdelone
 ft_lstclear
 ft_lstadd_front
@@ -10,7 +10,5 @@ ft_lstadd_back
 ft_lstiter
 ft_lstmap
 ****doesnt work with war francinette****
-mem functions
-continua a dizer que tem de dar seg faul mas se tirar as
-proteções diz que a função não se comporta bem quando 
-NULL é dado como parametro
+substr
+strrchr

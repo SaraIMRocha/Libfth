@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/26 19:22:47 by sara              #+#    #+#             */
-/*   Updated: 2022/11/24 00:20:10 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/24 17:47:36 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,25 +28,15 @@ The memmove() function returns the original value of dst.*/
 void	*ft_memmove(void *dst, const void *src, size_t len)
 
 {
-	unsigned char	*s;
-	unsigned char	*d;
-	size_t			i;
+	char	*s;
+	char	*d;
 
-	s = (unsigned char *)src;
-	d = (unsigned char *)dst;
-	i = 0;
-	if (!dst || !s)
-		return (NULL);
+	s = (char *)src;
+	d = dst;
 	if (d > s)
-		while (len-- > 0)
+		while (len--)
 			d[len] = s[len];
 	else
-	{
-		while (i < len)
-		{
-			d[i] = s[i];
-			i++;
-		}
-	}
+		ft_memcpy(d, s, len);
 	return (dst);
 }

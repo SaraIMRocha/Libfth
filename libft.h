@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/27 17:48:46 by sara              #+#    #+#             */
-/*   Updated: 2022/11/24 04:43:48 by sara             ###   ########.fr       */
+/*   Updated: 2022/11/25 01:51:08 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 # include <stdio.h>
 # include <string.h>
 # include <stddef.h>
+# include <limits.h>
 
 typedef struct s_list
 {
