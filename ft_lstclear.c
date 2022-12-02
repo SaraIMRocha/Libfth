@@ -24,4 +24,18 @@ RETURN VALUES
 
 #include "libft.h"
 
-void	ft_lstclear(t_list **lst, void(*f)(void *))
+void	ft_lstclear(t_list **lst, void (*f)(void *))
+
+{
+	t_list	*clear;
+
+	if (!lst || !*lst)
+		return ;
+	while (*lst)
+	{
+		clear = (*lst)->next;
+		ft_lstdelone(*lst, f);
+		*lst = clear;
+	}
+	lst = NULL;
+}

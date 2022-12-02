@@ -22,6 +22,8 @@ Remember, this keyword adds a new name for some existing
 
 -----------------------------------------
 
+UNSIGNED KEYWORD
+
 Non-negative
 Unsigned means non-negative
 The term "unsigned" in computer programming indicates a variable 
@@ -30,13 +32,22 @@ computer code indicates that a variable can hold negative and positive values.
 
 -----------------------------------------
 
+CONST KEYWORD
+
 The const keyword specifies that a variable's value is constant and tells the compiler 
 to prevent the programmer from modifying it.
 
 -----------------------------------------
+
+MEANING OF ITERATE
+
+In programming specifically, iterative refers to a sequence of instructions or code 
+being repeated until a specific end result is achieved. Iterative development is 
+sometimes called circular or evolutionary development.
+
 -----------------------------------------
 
-Makefile .PHONY
+MAKEFILE .PHONY
 
 .PHONY directive is actually itself a target for the make commandand and it denotes
  labels that do not represent files of the project
@@ -56,7 +67,8 @@ execute no matter of the presence of a file named build.
 
 -----------------------------------------
 
-Structs(lst)
+STRUCTS (LST)
+
 Arrays allow to define type of variables that can hold several data items of the same kind. Similarly structure 
 is another user defined data type available in C that allows to combine data items of different kinds.
 Structures are used to represent a record.
@@ -108,7 +120,7 @@ e não será avaliado mas será mais fácil avaliar o meu trabalho e testar o do
 
 ------------------------------------------
 
-Format specifiers:
+FORMAT SPECIFIERS
 
 %p
 Print memory address in the hexadecimal form
@@ -133,15 +145,7 @@ data from the user using standard input.
 
 ------------------------------------------
 
-What does iterating mean in coding?
-In programming specifically, iterative refers to a sequence of 
-instructions or code being repeated until a specific end result 
-is achieved. Iterative development is sometimes called circular
- or evolutionary development.
-
-------------------------------------------
-
-Function inside prototype
+FUNCTION INSIDE PROTOTYPE 
 
 In C language function prototype is used to provide function declaration. 
 It defines the function's name, returns types, and parameters. The return
@@ -155,6 +159,8 @@ identifying an open file within a process while using input/output resources
 
 ------------------------------------------
 
+STATIC KEYWORD
+
 The “static” keyword before a function name makes it static. 
 For example, below function fun() is static. Unlike global functions in C, 
 access to static functions is restricted to the file where they are declared. 
@@ -163,7 +169,15 @@ Therefore, when we want to restrict access to functions, we make them static
 
 ------------------------------------------
 
-Linked lists Struct
+CAST TYPE 
+Type Casting is basically a process in C in which we change a variable 
+belonging to one data type to another one. In type casting, the compiler 
+automatically changes one data type to another one depending on 
+what we want the program to do.
+
+------------------------------------------
+
+LINKED LIST STRUCT
 
 https://www.geeksforgeeks.org/what-is-linked-list/
 Like arrays, Linked List is a linear data structure. Unlike arrays, 

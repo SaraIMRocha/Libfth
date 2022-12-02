@@ -25,33 +25,21 @@ The strdup() function returns the pointer to the copy of s1.*/
 #include "libft.h"
 
 char	*ft_strdup(const char *s1)
-/*{
+{
 	size_t	i;
 	char	*s2;
-	size_t	len;
 
-	len = ft_strlen(s1) + 1;
-	s2 = malloc(sizeof(char) * len + 1);
+	s2 = malloc(sizeof(char) * ft_strlen(s1) + 1);
 	i = 0;
-	if (!s2)
-		return (0);
-	while (i < len)
+	if (!s2 || !s1)
+		return (NULL);
+	while (s1[i])
 	{
 		s2[i] = s1[i];
 		i++;
 	}
 	s2[i] = '\0';
 	return (s2);
-}*/
-
-{
-	char	*dst;
-
-	dst = (char *)malloc((sizeof(char)) * (ft_strlen(s1) + 1));
-	if (dst == NULL)
-		return (0);
-	ft_memcpy(dst, s1, ft_strlen(s1) + 1);
-	return (dst);
 }
 
 /*int		main(void)

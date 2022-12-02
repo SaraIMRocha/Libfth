@@ -19,7 +19,6 @@ RETURN VALUES
 The string representing the integer. NULL if the allocation fails.*/
 
 #include "libft.h"
-#include <limits.h>
 
 static int	ft_size(int n)
 
@@ -79,7 +78,7 @@ char	*ft_itoa(int n)
 {
 	int	n;
 	
-	n = INT_MIN;
+	n = -75;
 	
 	printf("Testing -> %s\n", ft_itoa(n));
 }*/

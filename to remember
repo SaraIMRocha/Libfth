@@ -129,6 +129,7 @@ char	**ft_split(char const *s, char c)
 			split[f++] = duplicador(s, index, i);
 		//aqui dizemos que o split é igual ao duplicador pois vamos precisar
 		//que a função crie os array de string delimitadas por c
+		//duplicador cria substring e a incrementação do splitf armazena-as
 	}
 	split[f] = '\0';
 	return (split);

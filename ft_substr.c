@@ -47,13 +47,5 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 /*int main()
 {
     char src[] = "testing my ft_substr luv";
- 
-    int m = 7;
-    int n = 15;
- 
-    char* dest = ft_substr(src, m, n);
- 
-    printf(":%s:\n", dest);
- 
-    return 0;
+    printf(":%s:\n", ft_substr(src, 5, 5));
 }*/

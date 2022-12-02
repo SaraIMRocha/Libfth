@@ -23,3 +23,16 @@ RETURN VALUES
 #include "libft.h"
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
+{
+	t_list	*add;
+
+	if (!lst || !new)
+		return ;
+	if (!*lst)
+	{
+		*lst = new;
+		return ;
+	}
+	add = ft_lstlast(*lst);
+	add -> next = new;
+}
